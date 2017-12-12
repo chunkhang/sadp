@@ -120,3 +120,6 @@
       - Assigns **responsibility** for implementing and integrating the modules to teams
       - Basis for clarifying **who does the work**
       - Determine major **communication pathways** among teams
+
+## [Importance of Software Architecture](#)
+
