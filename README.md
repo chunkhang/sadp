@@ -9,7 +9,7 @@
 - [Influence](part-a/influence.md)
 
 #### B. Architectural Styles
-- [MVC](#)
+- [Model-View-Controller](#)
 - [Publish/Subscribe](#)
 - [Broker](#)
 - [Client-Server](#)
