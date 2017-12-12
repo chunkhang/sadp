@@ -4,11 +4,11 @@
 - A set of elements held together by a **relation** (How the elements relate to one another)
 - Structures are **designed**
 
-#### [View](#)
+### [View](#)
 - A **representation** of one or more structures
 - Views are **documented**
 
-#### [Architecture](#)
+### [Architecture](#)
 1. **A set of software structures**
    - **System** is composed of many structures
    - Architecture supports **reasoning** about the system and the system's **properties**
