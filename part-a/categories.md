@@ -1,6 +1,6 @@
 ## Categories
 
-#### [Module Structures](#)
+### [Module Structures](#)
 - System is structured as **a set of code or data units** that need to be constructed or procured
 - Elements are **modules** or implementation units
    - Classes
@@ -34,7 +34,7 @@
       - Describe the static information structure in terms of **data entities** and their relationships
       - e.g. A banking system has Account, Customer and Loan, where Account has attributes such as account number, type, and balance
 
-#### [Component-And-Connector Structures (C&C)](#)
+### [Component-And-Connector Structures (C&C)](#)
 - System is structured as a set of elements with runtime **behaviour** (Components) and **interactions** (Connectors)
 - Elements are runtime **components**
    - Services
@@ -60,7 +60,7 @@
       - Units are **components** arranged into logical threads
       - Used to determine opportunities for **parallelism** and locations where **resource contention** may occur
 
-#### [Allocation Structures](#)
+### [Allocation Structures](#)
 - Relationship between software elements and elements in one or more external **environments** in which the software is created and executed
 - Describe the **mapping** from structures to the system's environment
    - Organisational
