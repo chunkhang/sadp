@@ -1,6 +1,6 @@
 ## Introduction
 
-#### [Structure](#)
+## [Structure](#)
 - A set of elements held together by a **relation** (How the elements relate to one another)
 - Structures are **designed**
 
