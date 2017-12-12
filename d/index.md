@@ -1,1 +1,0 @@
-# Quality Attributes, Requirements and Documentation
