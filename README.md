@@ -10,7 +10,7 @@
 
 #### B. Architectural Styles
 - [Model-View-Controller](#)
-- [Publish/Subscribe](#)
+- [Publish-Subscribe](#)
 - [Broker](#)
 - [Client-Server](#)
 - [Service-Oriented Architecture](#)
@@ -19,7 +19,8 @@
 #### C. Design Patterns
 - [Facade](#)
 - [Proxy](#)
-- [Factory pattern / Abstract factory](#)
+- [Factory Method](#)
+- [Abstract Factory](#)
 - [Adaptor](#)
 - [Observer](#)
 - [Singleton](#)
