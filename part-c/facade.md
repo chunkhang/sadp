@@ -15,7 +15,7 @@
 - Makes the subsystem **easier to use**
 - Shields the clients from subsytem components, reducing the **number of objects** for clients to deal with
 - Promotes **weak coupling** between subsystem and client, whereby the subsystem components can be changed without affecting the client
-- Reduce **compilation** dependencies
+- Reduces **compilation** dependencies
 - **Does not prevent** applications from using subsystem components
 
 #### [Source code >>](facade/)
