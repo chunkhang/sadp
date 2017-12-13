@@ -1,21 +1,17 @@
 ## Abstract Factory
 
-<img src="facade.png" alt="Facade" width=500px /> 
+<img src="abstract-factory.png" alt="Abstract Factory" width=500px /> 
 
 ### [Intent](#)
-- Provide a **unified interface** to a set of interfaces in a subsystem
-- Define a higher-level interface to make the **subsystem** easier to use
+- Provide an interface to create **families of related or dependent objects** without specifying their concrete classes
 
 ### [Applicability](#)
-- To provide a simple **interface** for a complex subsytem
-- To **decouple** a subsystem from clients and other subsytems
-- To define **entry points** for subsystems to communicate with each other
+- To design **families** of related ojects
+- To ensure that the created products are **used together**
 
 ### [Consequences](#)
-- Makes the subsystem **easier to use**
-- Shields the clients from subsytem components, reducing the **number of objects** for clients to deal with
-- Promotes **weak coupling** between subsystem and client, whereby the subsystem components can be changed without affecting the client
-- Reduce **compilation** dependencies
-- **Does not prevent** applications from using subsystem components
+- Client is **decoupled** from any specifics of concrete products
+- Instances are manipulated through their **abstract** interfaces
+- It is hard to **extend** the abstract factories to produce new kinds of products
 
-#### [Source code >>](facade/)
+#### [Source code >>](abstract-factory/)

@@ -7,7 +7,7 @@
 - **Defer** instantiation by letting **subclasses** decide which class to instantiate
 
 ### [Applicability](#)
-- To address situations whre the class of objects to create **cannot be anticipated**
+- To address situations where the class of objects to create **cannot be anticipated**
 - To allow **subclasses** to specify the objects they create
 - To **delegate** responsbility to helper subclasses and localise that knowledge in the delegates 
 
