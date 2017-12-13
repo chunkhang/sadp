@@ -19,12 +19,12 @@
 
 ### C. Design Patterns
 - [Introduction](part-c/introduction.md)
-- [**Facade**](part-c/)
-- [**Proxy**](part-c/)
-- [**Factory Method**](part-c/)
-- [**Abstract Factory**](part-c/)
-- [**Adapter**](part-c/)
-- [**Observer**](part-c/)
-- [**Singleton**](part-c/)
+- [**Facade**](part-c/facade.md)
+- [**Proxy**](part-c/proxy.md)
+- [**Factory Method**](part-c/factory-method.md)
+- [**Abstract Factory**](part-c/abstract-factory.md)
+- [**Adapter**](part-c/adapter.md)
+- [**Observer**](part-c/observer.md)
+- [**Singleton**](part-c/singleton.md)
 
 ### D. Quality Attributes, Requirements and Documentation
