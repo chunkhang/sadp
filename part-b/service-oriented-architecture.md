@@ -1,4 +1,4 @@
-## Service-Oriented Architecture
+## Service-Oriented Architecture (SOA)
 
 <img src="service-oriented-architecture.png" alt="Service-Oriented Architecture" width=750px />
 

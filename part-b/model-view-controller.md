@@ -1,4 +1,4 @@
-## Model-View-Controller
+## Model-View-Controller (MVC)
 
 <img src="model-view-controller.png" alt="Model-View-Controller" width=500px />
 
@@ -30,7 +30,7 @@
    - **Translates** user actions into changes to both model and view
 
 ### [Relations](#)
-- **Notifies** relation connects instances of model, view and controller (MVC)
+- **Notifies** relation connects instances of model, view and controller
 - Elements are notified of relevant **state changes**
 
 ### [Contraints](#)
