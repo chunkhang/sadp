@@ -1,21 +1,21 @@
 ## Observer
 
-<img src="facade.png" alt="Facade" width=500px /> 
+<img src="observer.png" alt="Observer" width=500px /> 
 
 ### [Intent](#)
-- Provide a **unified interface** to a set of interfaces in a subsystem
-- Define a higher-level interface to make the **subsystem** easier to use
+- Define a **one-to-many** dependency between objects
+- When an object **changes state**, all its dependents should be **notified and updated** automatically
 
 ### [Applicability](#)
-- To provide a simple **interface** for a complex subsytem
-- To **decouple** a subsystem from clients and other subsytems
-- To define **entry points** for subsystems to communicate with each other
+- To address situations where an observer depends on a **subject**
+- To address situations where the **number of observers** is unknown
+- To **decouple** the observers from the subject
 
 ### [Consequences](#)
-- Makes the subsystem **easier to use**
-- Shields the clients from subsytem components, reducing the **number of objects** for clients to deal with
-- Promotes **weak coupling** between subsystem and client, whereby the subsystem components can be changed without affecting the client
-- Reduce **compilation** dependencies
-- **Does not prevent** applications from using subsystem components
+- Subjects and observers can be **changed independently**
+- **Observers** can be added without modifying the subject or other observers
+- Subject only knows the **list of observers** but not their concrete classes
+- Support for **broadcast** communication
+- **Unexpected updates** to the observers from the subject
 
-#### [Source code >>](facade/)
+#### [Source code >>](observer/)
