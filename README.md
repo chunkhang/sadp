@@ -9,12 +9,12 @@
 - [Influence](part-a/influence.md)
 
 #### B. Architectural Styles
-- [Model-View-Controller](#)
-- [Publish-Subscribe](#)
-- [Broker](#)
-- [Client-Server](#)
-- [Service-Oriented Architecture](#)
-- [Peer-to-Peer](#)
+- [Model-View-Controller](part-b/model-view-controller.md)
+- [Publish-Subscribe](part-b/publish-subscribe.md)
+- [Broker](part-b/broker.md)
+- [Client-Server](part-b/client-server.md)
+- [Service-Oriented Architecture](part-b/service-oriented-architecture.md)
+- [Peer-to-Peer](part-b/peer-to-peer.md)
 
 #### C. Design Patterns
 - [Facade](#)
