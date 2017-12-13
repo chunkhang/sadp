@@ -6,7 +6,6 @@
 - [Importance](part-a/importance.md)
 - [Contexts](part-a/contexts.md)
 - [Stakeholders](part-a/stakeholders.md)
-- [Influence](part-a/influence.md)
 
 #### B. Architectural Styles
 - [Introduction](part-b/introduction.md)
