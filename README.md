@@ -9,6 +9,7 @@
 - [Influence](part-a/influence.md)
 
 #### B. Architectural Styles
+- [Introduction](part-b/introduction.md)
 - [Model-View-Controller](part-b/model-view-controller.md)
 - [Publish-Subscribe](part-b/publish-subscribe.md)
 - [Broker](part-b/broker.md)
