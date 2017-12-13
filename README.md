@@ -27,4 +27,6 @@
 - [**Observer**](part-c/observer.md)
 - [**Singleton**](part-c/singleton.md)
 
-### D. Quality Attributes, Requirements and Documentation
+### D. Requirements and Documentation
+- [Requirements](part-d/requirements.md)
+- [Quality Attributes](part-d/quality-attributes.md)
