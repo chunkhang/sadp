@@ -19,7 +19,7 @@
    - **Invoke** services directly or through an intermediary
    - **Providers** can also be consumers
 3. [**Enterprise Service Bus (ESB)**](#)
-   - Intermediary element that routes and tranforms messages between providers and consumers
+   - Intermediary element that **routes and tranforms messages** between providers and consumers
 4. [**Registry of services**](#)
    - Used by providers to **register** services
    - Used by consumers to **discover** services at runtime
