@@ -9,14 +9,14 @@
 - Views are **documented**
 
 ### [Architecture](#)
-1. **A set of software structures**
+1. [**A set of software structures**](#)
    - **System** is composed of many structures
    - Architecture supports **reasoning** about the system and the system's **properties**
    - **Reasoning** is an attribute of the system important to stakeholders
       - Functionality
       - Fault tolerance
       - Responsiveness
-2. **An abstraction**
+2. [**An abstraction**](#)
    - Architecture allows the system to be **examined** in terms of
       - The elements
       - How they are arranged
@@ -28,7 +28,7 @@
       - No ramifications outside of a single element
       - Private details (Internal implementation)
    - Abstraction tames the **complexity** of an architecture
-3. **Includes behaviour**
+3. [**Includes behaviour**](#)
    - **Behaviour** is how elements interact with each other
    - It can be used to **reason** about the system
    - Architecture only **considers** an elemtent's behaviour if it influences
