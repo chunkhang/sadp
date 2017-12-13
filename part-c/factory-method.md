@@ -1,21 +1,17 @@
 ## Factory Method
 
-<img src="facade.png" alt="Facade" width=500px /> 
+<img src="factory-method.png" alt="Factory Method" width=500px /> 
 
 ### [Intent](#)
-- Provide a **unified interface** to a set of interfaces in a subsystem
-- Define a higher-level interface to make the **subsystem** easier to use
+- Define an interface for **creating** an object
+- **Defer** instantiation by letting **subclasses** decide which class to instantiate
 
 ### [Applicability](#)
-- To provide a simple **interface** for a complex subsytem
-- To **decouple** a subsystem from clients and other subsytems
-- To define **entry points** for subsystems to communicate with each other
+- To address situations whre the class of objects to create **cannot be anticipated**
+- To allow **subclasses** to specify the objects they create
+- To **delegate** responsbility to helper subclasses and localise that knowledge in the delegates 
 
 ### [Consequences](#)
-- Makes the subsystem **easier to use**
-- Shields the clients from subsytem components, reducing the **number of objects** for clients to deal with
-- Promotes **weak coupling** between subsystem and client, whereby the subsystem components can be changed without affecting the client
-- Reduce **compilation** dependencies
-- **Does not prevent** applications from using subsystem components
+- Client code in superclass is **decoupled** from the object creation code in the subclasses
 
-#### [Source code >>](facade/)
+#### [Source code >>](factory-method/)
