@@ -30,7 +30,7 @@
       - They clarify and confirm with stakeholders to reach a **consensus**
    5. [**Scenario brainstorming**](#)
       - Stakeholder expresses **scenarios** representing their respective concerns with respect to the system
-      - Facilitator ensures that 
+      - **Facilitator** ensures that 
          - Each scenario has an explicit stimulus and response
          - At least one representative scenario exists for each architectural driver listed in Step 4
    6. [**Scenario consolidation**](#)
