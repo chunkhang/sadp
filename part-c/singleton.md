@@ -1,21 +1,18 @@
 ## Singleton
 
-<img src="facade.png" alt="Facade" width=500px /> 
+<img src="singleton.png" alt="Singleton" width=500px /> 
 
 ### [Intent](#)
-- Provide a **unified interface** to a set of interfaces in a subsystem
-- Define a higher-level interface to make the **subsystem** easier to use
+- To ensure a class only has **one object instance**
+- To provide a **global point of access** to it 
 
 ### [Applicability](#)
-- To provide a simple **interface** for a complex subsytem
-- To **decouple** a subsystem from clients and other subsytems
-- To define **entry points** for subsystems to communicate with each other
+- To address applications that need **exactly one** instance of an object
+- To allow **lazy intialisation** and **global access** if necessary
 
 ### [Consequences](#)
-- Makes the subsystem **easier to use**
-- Shields the clients from subsytem components, reducing the **number of objects** for clients to deal with
-- Promotes **weak coupling** between subsystem and client, whereby the subsystem components can be changed without affecting the client
-- Reduce **compilation** dependencies
-- **Does not prevent** applications from using subsystem components
+- **Controlled access** to sole instance
+- Reduced **name space**
+- A **variable number of instances** can be permitted
 
-#### [Source code >>](facade/)
+#### [Source code >>](singleton/)
