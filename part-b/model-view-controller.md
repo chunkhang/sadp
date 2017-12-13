@@ -8,7 +8,7 @@
 - The representations should all reflect the **current state** of data
 
 ### [Problem](#)
-- How can **user interface** functionality be kept **separate** from **application** functionality and yet still be responseive to user input or changes in the underlying application **data**?
+- How can **user interface** functionality be kept **separate** from **application** functionality and yet still be responsive to user input or changes in the underlying application **data**?
 - How can **multiple views of user interface** be created, maintained and coordinated when the underlying data changes?
 
 ### [Solution](#)
