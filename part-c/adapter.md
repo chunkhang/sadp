@@ -1,21 +1,20 @@
 ## Adapter
 
-<img src="facade.png" alt="Facade" width=500px /> 
+<img src="adapter-class.png" alt="Adapter" width=500px /> 
+<img src="adapter-object.png" alt="Adapter" width=500px /> 
 
 ### [Intent](#)
-- Provide a **unified interface** to a set of interfaces in a subsystem
-- Define a higher-level interface to make the **subsystem** easier to use
+- Convert **interface** of a class into another interface that the client expects
+- Allow classes with **incompatible interfaces** to work together
 
 ### [Applicability](#)
-- To provide a simple **interface** for a complex subsytem
-- To **decouple** a subsystem from clients and other subsytems
-- To define **entry points** for subsystems to communicate with each other
+- To match the **interface** of an existing class to what is needed
+- To create a **reusable** class that cooperates with unrelated or unforseen classes that may not have compatible interfaces
 
 ### [Consequences](#)
-- Makes the subsystem **easier to use**
-- Shields the clients from subsytem components, reducing the **number of objects** for clients to deal with
-- Promotes **weak coupling** between subsystem and client, whereby the subsystem components can be changed without affecting the client
-- Reduce **compilation** dependencies
-- **Does not prevent** applications from using subsystem components
+- A **class adapter** commits only to one concrete adaptee class through **inheritance**
+- It can **override** the adaptee class, but cannot adapt its subclasses
+- An **object adapter** works with many adaptee classes through **composition**
+- It **adds functionality** to all adaptee subclasses but cannot override them
 
-#### [Source code >>](facade/)
+#### [Source code >>](adapter/)
