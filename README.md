@@ -10,7 +10,7 @@
 
 #### B. Architectural Styles
 - [Introduction](part-b/introduction.md)
-- [Model-View-Controller (MVC_)](part-b/model-view-controller.md)
+- [Model-View-Controller (MVC)](part-b/model-view-controller.md)
 - [Publish-Subscribe](part-b/publish-subscribe.md)
 - [Broker](part-b/broker.md)
 - [Client-Server](part-b/client-server.md)
