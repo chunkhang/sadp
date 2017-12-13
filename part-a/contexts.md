@@ -30,8 +30,8 @@
    - Productivity 
 - Business goals have a profound **influence** on architecture
 - Every **quality attribute** should originate from some higher purpose that can be described in terms of added **value**
-   - Question: Why do you want this system to have a really fast response time?
-   - Answer: This differentiates the product from its competition and lets the developing organisation capture the market share
+   - **Question**: Why do you want this system to have a really fast response time?
+   - **Answer**: This differentiates the product from its competition and lets the developing organisation capture the market share
 - Some business goals **will not** show up in the form of requirements, and have **no effect** on architecture
    - e.g. A business goal to lower costs can be realised by asking employees to work from home
 <img src="business-goals.png" alt="Business Goals" width=500px />
