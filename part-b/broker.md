@@ -13,21 +13,21 @@
 - Separate users of services (Clients) from providers of services (Servers) by inserting an intermediary called **broker**
 
 ### [Elements](#)
-1. **Client**
+1. [**Client**](#)
    - **Requester** of service
-2. **Server**
+2. [**Server**](#)
    - **Provider** of service
-3. **Broker**
+3. [**Broker**](#)
    - **Intermediary** between client and server
    - **Locates** an apropriate server to fulfill a client's request
    - **Forwards** the request to the server
    - **Returns** the results to the client
-4. **Client-side proxy**
+4. [**Client-side proxy**](#)
    - Intermediary that manages actual **communication** with broker
       - Marshaling of messages
       - Sending of messages
       - Unmarshaling of messages
-5. **Server-side proxy**
+5. [**Server-side proxy**](#)
    - Intermediary that manages actual **communication** with broker
       - Marshaling of messages
       - Sending of messages

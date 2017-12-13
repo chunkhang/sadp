@@ -16,9 +16,9 @@
 - **Connector** delivers those events to **subscriber** components that have registered interest in those events
 
 ### [Elements](#)
-1. **C&C component**
+1. [**C&C component**](#)
    - With at least one **publish or subscribe** port
-2. **Publish-subscribe connector**
+2. [**Publish-subscribe connector**](#)
    - **Announce and listen** roles for components that wish to publish and subscribe to events
 
 ### [Relations](#)
@@ -31,8 +31,8 @@
 - **Subscribe ports** are attached to **listen** roles
 
 ### [Weaknesses](#)
-- Increases latency
-- Reduces scalability
-- Reduces predictability of message delivery time
-- Reduces contol over message ordering
-- Does not guarantee message delivery
+- Increases **latency**
+- Reduces **scalability**
+- Reduces **predictability** of message delivery time
+- Reduces contol over message **ordering**
+- Does not **guarantee** message delivery

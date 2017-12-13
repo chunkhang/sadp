@@ -18,14 +18,14 @@
    3. Controller
 
 ### [Elements](#)
-1. **Model**
+1. [**Model**](#)
    - Representation of application **data** or state
    - Contains or provides an interface to **application logic**
-2. **View**
+2. [**View**](#)
    - **User interface** component
    - Produces a **representation** of model for user
    - Allows for some form **user input** 
-3. **Controller**
+3. [**Controller**](#)
    - **Manages** the interaction between model and view
    - **Translates** user actions into changes to both model and view
 
@@ -38,5 +38,5 @@
 - **Model** cannot interact directly with controller
 
 ### [Weaknesses](#)
-- Complexity may not be worth it for simple user interfaces
-- MVC abstractions may not be suitable for some user interface toolkits
+- **Complexity** may not be worth it for simple user interfaces
+- MVC **abstractions** may not be suitable for some user interface toolkits
