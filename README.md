@@ -18,12 +18,13 @@
 - [Tactics](part-b/tactics.md)
 
 #### C. Design Patterns
-- [Facade](#)
-- [Proxy](#)
-- [Factory Method](#)
-- [Abstract Factory](#)
-- [Adaptor](#)
-- [Observer](#)
-- [Singleton](#)
+- [Introduction](part-c/introduction.md)
+- [Facade](part-c/)
+- [Proxy](part-c/)
+- [Factory Method](part-c/)
+- [Abstract Factory](part-c/)
+- [Adapter](part-c/)
+- [Observer](part-c/)
+- [Singleton](part-c/)
 
 #### D. Quality Attributes, Requirements and Documentation
