@@ -31,6 +31,6 @@
 3. [**Includes behaviour**](#)
    - **Behaviour** is how elements interact with each other
    - It can be used to **reason** about the system
-   - Architecture only **considers** an elemtent's behaviour if it influences
+   - Architecture only **considers** an element's behaviour if it influences
       - Another element
       - The acceptability of the system as a whole
