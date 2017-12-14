@@ -31,7 +31,7 @@
 
 ### [5. Earliest design decisions](#)
 - Architecture is a manifestation of the earliest **design decisions** about a system
-- Each design **constraints** the mant decisions that follow
+- Each design **constraints** the many decisions that follow
    - Will the system run on one processor or be distributed across multiple processors?
    - Will the software be layered?
    - Will componenets communicate synchronously or asynchronously?
