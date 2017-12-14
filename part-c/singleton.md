@@ -8,7 +8,7 @@
 
 ### [Applicability](#)
 - To address applications that need **exactly one** instance of an object
-- To allow **lazy intialisation** and **global access** if necessary
+- To allow **lazy initialisation** and **global access** if necessary
 
 ### [Consequences](#)
 - **Controlled access** to sole instance
